@@ -1,0 +1,27 @@
+.dropdown {
+	>.MuiInputBase-root {
+		width: 100%;
+		font-size: 26px;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 36px;
+		color: #22232b;
+		em{
+			font-style: normal;
+		}
+	}
+	width: 300px;
+	min-width: 300px !important;
+	height: 2.875em;
+	flex-direction: inherit !important;
+	.MuiInput-underline {
+		&::after {
+			border-bottom: 2px solid #1B1B1B !important;
+		}
+	}
+}
+.small-font {
+	>.MuiInputBase-root {
+		font-size: 16px;
+	}
+}

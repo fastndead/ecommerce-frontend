@@ -1,0 +1,38 @@
+.SearchBar {
+	display: flex;
+	margin: 38px 0px;
+	align-items: flex-end;
+	.MuiInput-underline {
+		&::after {
+			border-bottom: 2px solid #1B1B1B !important;
+		}
+	}
+}
+.search-icon {
+	text-align: center;
+	width: 71px;
+	img {
+		width: 40px;
+	}
+}
+.search-input {
+	.MuiInputBase-root {
+		width: 100%;
+	}
+	flex: 1;
+	margin-left: 40px !important;
+	height: 2.875em;
+	.MuiInputBase-input {
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 26px;
+		line-height: 36px;
+		color: #22232b;
+	}
+}
+.search-feild {
+	margin-right: 40px !important;
+}
+
+

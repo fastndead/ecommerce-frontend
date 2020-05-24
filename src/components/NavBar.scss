@@ -1,0 +1,41 @@
+.NavBar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	ul {
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+}
+.main-nav {
+	flex: 1;
+	justify-content: flex-start;
+	li {
+		padding-right: 40px;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 13px;
+		line-height: 18px;
+		text-transform: uppercase;
+		color: #22232b;
+		cursor: pointer;
+	}
+}
+.right-nav {
+	li {
+		padding-left: 40px;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 13px;
+		line-height: 18px;
+		text-transform: uppercase;
+		color: #22232b;
+		cursor: pointer;
+	}
+}
+.logo {
+	height: 71px;
+	width: 71px;
+}

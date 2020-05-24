@@ -1,0 +1,43 @@
+.MuiContainer-maxWidthXl{
+  width: 1440px !important;
+  height: 1108px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 64px;
+  margin-bottom: 40px;
+}
+
+.pagination {
+  margin: 38px 0px;
+}
+
+.MuiPagination-ul {
+  .MuiPaginationItem-root {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+.MuiPagination-ul {
+  .MuiPaginationItem-rounded {
+    border-radius: 0px;
+    font-family: Avenir;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #22232b;
+  }
+
+  .MuiPaginationItem-page.Mui-disabled {
+    display: none;
+}
+}
+
+.MuiPaginationItem-page.Mui-selected {
+  background-color: #22232b !important;
+  color: #ffffff !important;
+}

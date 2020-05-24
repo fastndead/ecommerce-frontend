@@ -1,0 +1,15 @@
+.rating {
+	display: flex;
+}
+.checked-star {
+	background-image: url("/assests/star-on.svg");
+	background-repeat: no-repeat;
+	height: 15px;
+	width: 15px;
+}
+.unchecked-star {
+	background-image: url("/assests/star-off.svg");
+	background-repeat: no-repeat;
+	height: 15px;
+	width: 15px;
+}
