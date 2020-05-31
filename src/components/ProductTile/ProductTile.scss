@@ -1,3 +1,8 @@
+a {
+	color: blue;
+	text-decoration: none; /* no underline */
+  }
+
 h4 {
 	margin: 0px;
 	margin-bottom: 4px;
@@ -48,4 +53,9 @@ p {
 		mix-blend-mode: normal;
 		opacity: 0.5;
 	}
+}
+
+
+.product-tile-cart {
+	cursor: pointer;
 }

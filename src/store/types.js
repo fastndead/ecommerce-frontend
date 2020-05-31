@@ -1,5 +1,9 @@
 const ACTION = {
-    PRODUCTS: "PRODUCTS"
-}
+  PRODUCTS: 'PRODUCTS',
+  OPEN_CART: 'OPEN_CART',
+  ADD_CART: 'ADD_CART',
+  REMOVE_CART: 'REMOVE_CART',
+  EMPTY_CART: 'EMPTY_CART',
+};
 
-export default ACTION
+export default ACTION;

@@ -22,6 +22,11 @@
 		color: #22232b;
 		cursor: pointer;
 	}
+
+	& > * {
+		color: black;
+		text-decoration: none;
+	}
 }
 .right-nav {
 	li {

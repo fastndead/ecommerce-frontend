@@ -1,15 +1,43 @@
 .rating {
 	display: flex;
+
+	& > * {
+		width: 11px;
+		height: 11px;
+		padding: 5px;
+
+		&:first-child {
+			padding-left: 0;
+		}
+	}
+
+	&-lg {
+		& > * {
+			width: 30px;
+			height: 30px;
+			padding: 5px;
+		}
+	}
 }
 .checked-star {
 	background-image: url("/assests/star-on.svg");
 	background-repeat: no-repeat;
 	height: 15px;
 	width: 15px;
+
+	&-lg {
+		height: 35px;
+		width: 35px;
+	}
 }
 .unchecked-star {
 	background-image: url("/assests/star-off.svg");
 	background-repeat: no-repeat;
 	height: 15px;
 	width: 15px;
+
+	&-lg {
+		height: 35px;
+		width: 35px;
+	}
 }

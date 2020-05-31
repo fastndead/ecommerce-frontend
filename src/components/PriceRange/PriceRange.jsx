@@ -1,6 +1,6 @@
-import React from "react";
-import Typography from "@material-ui/core/Typography";
-import Slider from "@material-ui/core/Slider";
+import React from 'react';
+import Typography from '@material-ui/core/Typography';
+import Slider from '@material-ui/core/Slider';
 
 function valuetext(value) {
   return `${value}`;
@@ -14,7 +14,7 @@ export default function RangeSlider() {
       value: 0,
       label: '0',
     },
-   
+
     {
       value: 100,
       label: '100',
@@ -26,7 +26,7 @@ export default function RangeSlider() {
   };
 
   return (
-    <div style={{ width: "290px" }}>
+    <div style={{ width: '290px' }}>
       <Typography id="range-slider" gutterBottom>
         Price Range
       </Typography>
